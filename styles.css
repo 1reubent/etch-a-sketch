@@ -1,0 +1,12 @@
+#grid-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  outline: 2px solid red;
+  width: 800px;
+  /* 16 * square_width */
+}
+
+.colored {
+  background-color: blue;
+}
