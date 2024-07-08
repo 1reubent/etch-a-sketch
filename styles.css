@@ -3,15 +3,21 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  background-color: antiquewhite;
 }
 
+#heading {
+  flex: 1;
+  /* background-color: brown; */
+}
 #grid-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   outline: 8px solid rgb(249, 99, 44);
-  width: 960px;
-  height: 960px;
+  width: 480px;
+  height: 480px;
+  /* box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); */
   /* 16 * square_width */
 }
 
@@ -22,5 +28,5 @@ button {
 .grid-square {
   /* outline: 2px solid red; */
   background-color: white;
-  flex: initial;
+  /* flex: initial; */
 }

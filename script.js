@@ -1,4 +1,4 @@
-const CANVAS_SIZE = 960;
+const CANVAS_SIZE = 480;
 
 //COLORS
 const BLACK = "rgb(0,0,0)";
