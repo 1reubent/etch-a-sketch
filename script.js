@@ -63,6 +63,14 @@ colorRainbowButton.addEventListener( "click", () => {
   RAINBOW = true;
 })
 
+//RESET BUTTON
+let resetButton = document.querySelector("#reset");
+resetButton.addEventListener( "click", () => {
+  gridSquares.forEach(element => {
+    element.style.backgroundColor = "white";
+  });
+})
+
 
 
 //FUNCTIONS
@@ -82,7 +90,7 @@ function createGrid(size){
     gridSquares[i].style.height = `${boxSize}px`;
     gridSquares[i].setAttribute("class", "grid-square");
 
-    gridSquares[i].addEventListener('mouseover', () => {
+    gridSquares[i].addEventListener('mouseover', (event) => {
       if (RAINBOW){
         let r = Math.floor(Math.random() * 256);
         let g = Math.floor(Math.random() * 256);
