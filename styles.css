@@ -1,8 +1,15 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 #grid-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  outline: 2px solid blue;
+  outline: 8px solid rgb(249, 99, 44);
   width: 960px;
   height: 960px;
   /* 16 * square_width */
