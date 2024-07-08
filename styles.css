@@ -2,11 +2,18 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  outline: 2px solid red;
-  width: 800px;
+  outline: 2px solid blue;
+  width: 960px;
+  height: 960px;
   /* 16 * square_width */
 }
 
-.colored {
-  background-color: blue;
+button {
+  margin-bottom: 10px;
+}
+
+.grid-square {
+  /* outline: 2px solid red; */
+  background-color: white;
+  flex: initial;
 }
