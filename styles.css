@@ -29,7 +29,7 @@ button {
 }
 
 .grid-square {
-  outline: 1px solid rgba(119, 115, 115, 0.5);
+  outline: 1px solid rgba(119, 115, 115, 0.25);
   background-color: white;
   /* flex: initial; */
 }
