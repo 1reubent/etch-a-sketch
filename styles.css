@@ -18,8 +18,8 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   outline: 8px solid rgb(249, 99, 44);
-  width: 480px;
-  height: 480px;
+  width: 640px;
+  height: 640px;
   /* box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); */
   /* 16 * square_width */
 }
@@ -29,7 +29,7 @@ button {
 }
 
 .grid-square {
-  /* outline: 2px solid red; */
+  outline: 1px solid rgba(119, 115, 115, 0.5);
   background-color: white;
   /* flex: initial; */
 }
